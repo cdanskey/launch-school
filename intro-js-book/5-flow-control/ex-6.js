@@ -7,7 +7,6 @@ function isArrayEmpty(arr) {
 }
 
 isArrayEmpty([]);
-isArrayEmpty();
 
 /* 
 Logs Not Empty to the console.
@@ -16,3 +15,5 @@ an empty array has a truthy value
 and so the function executes the first 
 branch of the if statement.
 */
+
+isArrayEmpty(); // logs empty to the console 
