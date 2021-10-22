@@ -1,4 +1,4 @@
-function sumOfSquares(arr){
+function sumOfSquares(arr) {
   return arr.reduce((accumulator, element) => {
     return accumulator + (element * element);
   }, 0);

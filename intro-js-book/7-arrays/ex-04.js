@@ -4,7 +4,7 @@ let myArray = [
   17, 16, 0,
 ];
 
-let evenOddArray = myArray.map(function(num){
+let evenOddArray = myArray.map(function(num) {
   return (num % 2 === 0) ? 'even' : 'odd';
 });
 
